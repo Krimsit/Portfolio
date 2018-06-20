@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width:768px) {
   .header-container {
     width: 100%;
     display: -webkit-box;
@@ -56,7 +56,8 @@
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    margin: 0 auto; }
     .specialize-container .specialize-card .card .bottomcard {
       width: 250px; }
   .portfolio .posts {
