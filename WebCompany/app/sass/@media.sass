@@ -1,0 +1,66 @@
+@media screen and(max-width: 420px)
+	.header-container
+		width: 100%
+		display: flex
+		justify-content: space-around
+		.main-menu
+			display: none
+			position: relative
+			top: 30px
+			right: 115px
+			li
+				width: 100%
+				display: block
+				font-size: 12px
+			a
+				display: block
+				padding: 8px
+				margin-right: -65px
+		.toggle-button
+			text-align: center
+			display: block
+			cursor: pointer
+			color: #000
+			margin-top: 20px
+		.toggle-button:after
+			content: attr(data-open)
+			display: block
+		#menu-checkbox:checked + nav[role="navigation"] .main-menu
+			display: block
+		#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after
+			content: attr(data-close)
+	.top-slide
+		padding-top: 40px
+		padding-bottom: 40px
+		.top-container
+			h2
+				font-size: 32px
+			p
+				font-size: 16px
+	.specialize-container
+		p
+			font-size: 16px
+		.specialize-card
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			.card
+				.bottomcard
+					width: 250px
+	.portfolio
+		.posts
+			width: 90%
+			display: grid
+			grid-template-columns: auto
+			margin: 0 auto
+	footer
+		.footer-container
+			display: grid
+			grid-template-columns: auto
+	.footer-menu
+		.main-menu
+			display: block
+
+
+
+
