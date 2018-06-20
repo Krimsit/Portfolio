@@ -19,10 +19,10 @@ $(document).ready(function(){
 		smartSpeed: 1000,
 		autoplayTimeout: 2000,
 		responsive: {
-			0:{
+			768:{
 				items: 3
 			},
-			600: {
+			1000: {
 				items: 8
 			}
 		}
